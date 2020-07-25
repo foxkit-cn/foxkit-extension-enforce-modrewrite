@@ -1,0 +1,6 @@
+{
+    "name": "foxkit-extension-enforce-modrewrite",
+    "scripts": {
+        "archive": "composer archive --format=zip"
+    }
+}

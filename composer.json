@@ -1,0 +1,23 @@
+{
+    "name": "foxkit/enforce-modrewrite",
+    "module": "foxkit/enforce-modrewrite",
+    "version": "0.1.0",
+    "type": "foxkit-extension",
+    "title": "Enforce Rewrite URL",
+    "description": "某些网络托管服务商将前缀用于环境变量，这使得 FoxKit 无法识别是否启用了 mod_rewrite。该扩展程序强制执行重写的 URL。警告：仅当您的网站在网址中没有 'index.php' 的情况下，才使用此扩展！",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cnguu",
+            "email": "www@cnguu.cn",
+            "homepage": "https://github.com/foxkit-cn/foxkit-extension-enforce-modrewrite"
+        }
+    ],
+    "extra": {
+    },
+    "archive": {
+        "exclude": [
+            "node_modules"
+        ]
+    }
+}
